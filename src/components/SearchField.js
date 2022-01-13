@@ -31,7 +31,7 @@ class SearchField extends React.Component {
     }
 
 
-    render(){
+    render() {
         return (
             <>
                 <header>
@@ -46,6 +46,20 @@ class SearchField extends React.Component {
                         </div>
                     </div>
                 </header>
+
+                <h2>
+                    <div className ="Gifs-body">
+                        {this.state.results.map((data, i) => (
+                
+                                <ul key = {i}>
+                                    <li>{data}</li>
+                                </ul>
+        
+                    ))}
+    
+
+                    </div>
+                </h2>
             </>
         );
     }
