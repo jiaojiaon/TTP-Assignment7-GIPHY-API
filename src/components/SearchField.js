@@ -29,23 +29,25 @@ class SearchField extends React.Component {
             })
             .then(() => console.log(this.state.results));
     }
-}
 
-render(){
-    return (
-        <>
-            <header>
-                <div className="Gifs-header">
-                    <h1>GIPHY SEARCH</h1>
 
-                    <div className="submit-container">
-                        <form onSubmit={this.handleChange}>
-                            <input type="Text" placeholder="Search Gifs Name" name="gifs"></input>
-                            <input type="submit" placeholder="Search"></input>
-                        </form>
+    render(){
+        return (
+            <>
+                <header>
+                    <div className="Gifs-header">
+                        <h1>GIPHY SEARCH</h1>
+
+                        <div className="submit-container">
+                            <form onSubmit={this.handleChange}>
+                                <input type="Text" placeholder="Search Gifs Name" name="gifs"></input>
+                                <input type="submit" placeholder="Search"></input>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </header>
-        </>
-    )
+                </header>
+            </>
+        );
+    }
 }
+export default SearchField; 
