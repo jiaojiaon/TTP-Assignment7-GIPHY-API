@@ -1,15 +1,17 @@
-import logo from './logo.svg';
+import React from "react"
 import './App.css';
-import GifCard from './GifCard.js';
+import GifCard from './components/GifCard.js';
 import SearchField from './components/SearchField.js';
 import {useState} from 'react';
 function App() {
-  const [gifs, setGifs] = useState()
+  const [gifs, setGifs] = useState([])
   return (
     <div className="App">
       <SearchField setGifs={setGifs} />
-      {gifs.map((gif, i) => {
-        return <GifCard />
+      
+      {Array.isArray(gifs) && gifs.map((gif) => {
+
+        return <GifCard key= {gif.id} src = {gif.images.original.url} />
       })}
     </div>
   );

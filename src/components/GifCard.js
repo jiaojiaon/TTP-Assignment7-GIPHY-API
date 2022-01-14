@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
-
-export default function GifCard(props) {
-    {
+import React from "react"
+function GifCard(props) {
+    console.log(props.src)
         return (
-            <div key={this.props.key} className="gifBox">
-                <img key={this.props.name} src={this.props.images.original.url} />
-            </div>
-        );
-    }
+            
+         <div key = {props.key} className = "gifBox">
+         <img key= {props.id} src = {props.src}/>
+         </div>
+
+       
+        )
 }
+
+export default GifCard;
