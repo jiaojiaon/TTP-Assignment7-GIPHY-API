@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TTP-Assignment7-GIPHY-API/static/css/main.073c9b0a.css",
+    "main.js": "/TTP-Assignment7-GIPHY-API/static/js/main.6ff4265c.js",
+    "static/js/787.859729bc.chunk.js": "/TTP-Assignment7-GIPHY-API/static/js/787.859729bc.chunk.js",
+    "index.html": "/TTP-Assignment7-GIPHY-API/index.html",
+    "main.073c9b0a.css.map": "/TTP-Assignment7-GIPHY-API/static/css/main.073c9b0a.css.map",
+    "main.6ff4265c.js.map": "/TTP-Assignment7-GIPHY-API/static/js/main.6ff4265c.js.map",
+    "787.859729bc.chunk.js.map": "/TTP-Assignment7-GIPHY-API/static/js/787.859729bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6ff4265c.js"
+  ]
+}
