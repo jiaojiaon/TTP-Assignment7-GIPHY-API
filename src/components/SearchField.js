@@ -8,6 +8,7 @@ const SearchField  = (props) => {
             gifData.data
         );
     }
+    
    const handleRegularSearch = (event) => {
         let name = event.target.name;
         let value = event.target.value;
